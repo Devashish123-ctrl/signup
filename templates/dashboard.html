@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<style>
+
+</style>
+<body>
+    <img src={{profile.user.profile_picture}} >
+    <h1>{{profile.user.profile_picture}}</h1>
+    <h2>Welcome, {{ profile.user.first_name }} {{ profile.user.last_name }}</h2>
+    <p>Email: {{ profile.user.email }}</p>
+
+    <p>Address: {{ profile.address_line1 }}, {{ profile.city }}, {{ profile.state }}, {{ profile.pincode }}</p>
+</body>
+</html>
